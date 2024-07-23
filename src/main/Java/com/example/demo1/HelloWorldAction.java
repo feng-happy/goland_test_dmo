@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
  * @create 2024-07-16 23:16
  */
 public class HelloWorldAction extends AnAction {
+    //添加事件
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
 
