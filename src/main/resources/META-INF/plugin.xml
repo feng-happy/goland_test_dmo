@@ -27,4 +27,11 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <actions>
+
+        <action id="com.example.demo1.HelloWorldAction" class="com.example.demo1.HelloWorldAction" text="hello"
+                description="hello">
+            <add-to-group group-id="NewGroup" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
